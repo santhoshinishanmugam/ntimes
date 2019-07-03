@@ -1,3 +1,3 @@
-N = int(raw_input())
-for i in xrange(N)
+N = int(input())
+for i in range(0,N)
 print("Hello")
