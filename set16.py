@@ -1,4 +1,4 @@
-n,t=input().split()
+n,t=map(input().split())
 s=int(n)
 g=int(t)
 for i in range(s+1,g+1):
