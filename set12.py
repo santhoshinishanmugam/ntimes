@@ -1,4 +1,4 @@
-j = int(input())
+j = input()
 if j == j[::-1]:
   print("yes")
 else:
