@@ -1,2 +1,2 @@
 s = int(input())
-print(len(i))
+print(len(s))
