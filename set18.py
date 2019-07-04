@@ -1,6 +1,6 @@
-m = list(map(int, input().split()))
+v = list(map(int, input().split()))
 t = []
-for i in range(m[0], m[-1]):
+for i in range(v[0], v[-1]):
   r = str(i)
   l = len(r)
   c = 0
