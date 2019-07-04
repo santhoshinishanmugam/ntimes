@@ -1,1 +1,2 @@
+n,i=input().split()
 
