@@ -1,3 +1,3 @@
-a = int(input())
-d = list(map(int,input()))
-print(min(d))
+xy = int(input())
+dr = list(map(int,input()))
+print(min(dr))
