@@ -1,1 +1,2 @@
-
+namesa=input()
+print(namesa+".")
