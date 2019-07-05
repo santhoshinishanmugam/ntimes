@@ -1,1 +1,12 @@
-
+s,a=list(map(int,input().split()))
+g,h=list(map(int,input().split()))
+t=int((s*60)+a))
+o=int((g*60)+h))
+y=abs(t-o)
+h=0
+m=0
+while(y>59):
+  y=y-60
+  h+=1
+k=y
+print(h,k)
