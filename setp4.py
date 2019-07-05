@@ -1,2 +1,2 @@
-namesa=input()
+namesa = input()
 print(namesa+".")
