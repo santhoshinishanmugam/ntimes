@@ -1,6 +1,6 @@
 e = input()
-t = n.isnumeric()
-if(t == true):
+t = e.isnumeric()
+if(t==True):
   print("Yes")
 else:
   print("No")
