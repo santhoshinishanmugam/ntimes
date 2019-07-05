@@ -4,4 +4,4 @@ h=list(map(int,input().split()))
 for i in range(y):
   t+=h[i]
 a=t/y
-print(a)
+print(int(a))
