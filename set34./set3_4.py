@@ -1,4 +1,4 @@
 final=1
-in=input()
-final+=in.count('.')
+inp=input()
+final+=inp.count('.')
 print(final)
