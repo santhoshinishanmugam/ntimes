@@ -1,1 +1,1 @@
-
+sant=int(input())
