@@ -5,7 +5,7 @@ for c in l:
     g +=1
   if c.isdigit():
     g +=1
-for g and h in:
+for g and h:
   print("Yes")
 else:
   print("No")
