@@ -1,9 +1,9 @@
-def sa(t,m):
+def san(t,m):
   if(len(t)==len(m)):
     return("yes")
   else:
     return("no")
   t,m=map(str,input().split())
-  print(sa(t,m))
+  print(san(t,m))
 
 
