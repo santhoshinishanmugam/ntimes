@@ -1,10 +1,10 @@
-c,v=map(int,input().split())
-p=[]
-for j in range(c+1,v+1):
-  if j>1:
-    for i in range(2,j):
-      if(j%v==0):
+inp1,inp2=map(int,input().split())
+count=0
+for n in range(inp1,inp2+1):
+  if(n > 1):
+    for x in range(2,n):
+      if((n%x)==0):
         break
       else:
-        p.append(i)
-  print(len(p)+1)      
+        count=count+1
+print(count)        
