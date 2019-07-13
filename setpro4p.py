@@ -8,3 +8,4 @@ while p<len(s1):
    p+=1
 for p in range(p,len(s2)):
          san+=ord(s2[p]-ord('a')+1
+print(san)
