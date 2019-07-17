@@ -1,5 +1,10 @@
-s=int(input())
-d=list(map(int,input().split()))
-for i in range(len(d)):
-  if((i%d==0)and(d[i]%2!=0)or(i%2!=0)and(d[i]%==0)):
-    print(d[i],end=" ")
+s=input()
+a=list(map(int,input().split()))
+t=[]
+for i in range(len(a)):
+  if i%2==0:
+    if a[i]%2!=0:
+      t.append(a[i])
+for i in t:
+  print(i,end=" ")
+      
