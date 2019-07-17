@@ -3,7 +3,7 @@ s = input()
 a = list(map(int,input().split()))
 t = 0
 h = 10000
-for i in permutations(a,2):
+for i in permutations(a, 2):
   if sum(i) == 0:
     t = i
     break
