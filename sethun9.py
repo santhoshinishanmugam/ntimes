@@ -10,6 +10,6 @@ for i in permutations(a, 2):
   elif 0-sum(i) < h:
     h = 0-sum(i)
     t = i
-print(t[1], t[0])    
+print(t[0], t[1])    
     
 
