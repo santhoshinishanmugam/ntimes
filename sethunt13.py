@@ -1,8 +1,8 @@
 s = input()
 a=x[::-1]
-if(a==x):
-  print('NO')
-    break
+if a == x:
+  print("YES")
+  break
 else:
-  print('YES')
+  print("NO")
   
