@@ -1,7 +1,7 @@
 s = input();
-a = set(map(int,input.split()))
+b = set(map(int,input.split()))
 n = set(map(int,input.split()))
-if n.issubset(a):
+if n.issubset(b):
   print("YES")
 else:
   print("NO")
